@@ -45,4 +45,4 @@ driver.quit()
 df = pd.DataFrame(data)
 print(df)
 
-df.to_csv("table_data.csv", index=False, encoding="utf-8")
+df.to_csv("initial_data.csv", index=False, encoding="utf-8")
